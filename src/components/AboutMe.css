@@ -1,0 +1,52 @@
+.about-me-container {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 50px auto 0; /* Added top margin for spacing */
+  padding: 30px 40px; /* Padding inside the container */
+  background-color: #f2f2f2; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.about-me-container:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.about-me-text {
+  flex: 1;
+  padding: 20px;
+  animation: fadeIn 1s; /* Fade-in animation */
+}
+
+.about-me-image {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center image */
+  align-items: center; /* Center image */
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Image transition */
+}
+
+.profile-image:hover {
+  transform: scale(1.05); /* Enlarge image on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Start from below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
