@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/deepshah995.github.io/static/css/main.28ea43f1.css",
-    "main.js": "/deepshah995.github.io/static/js/main.c483cc7b.js",
+    "main.css": "/deepshah995.github.io/static/css/main.276be983.css",
+    "main.js": "/deepshah995.github.io/static/js/main.0e17664b.js",
     "static/js/453.570719ff.chunk.js": "/deepshah995.github.io/static/js/453.570719ff.chunk.js",
-    "static/media/my-pic.jpg": "/deepshah995.github.io/static/media/my-pic.d69233104615e42eb0d9.jpg",
+    "static/media/breakintotech.jpg": "/deepshah995.github.io/static/media/breakintotech.d69233104615e42eb0d9.jpg",
+    "static/media/my-pic.jpg": "/deepshah995.github.io/static/media/my-pic.6831d5fbd8bbdf467dd9.jpg",
     "index.html": "/deepshah995.github.io/index.html",
-    "main.28ea43f1.css.map": "/deepshah995.github.io/static/css/main.28ea43f1.css.map",
-    "main.c483cc7b.js.map": "/deepshah995.github.io/static/js/main.c483cc7b.js.map",
+    "main.276be983.css.map": "/deepshah995.github.io/static/css/main.276be983.css.map",
+    "main.0e17664b.js.map": "/deepshah995.github.io/static/js/main.0e17664b.js.map",
     "453.570719ff.chunk.js.map": "/deepshah995.github.io/static/js/453.570719ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28ea43f1.css",
-    "static/js/main.c483cc7b.js"
+    "static/css/main.276be983.css",
+    "static/js/main.0e17664b.js"
   ]
 }
