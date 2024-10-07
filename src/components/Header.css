@@ -28,7 +28,7 @@
 .nav {
   flex-grow: 1; /* Allow nav to take remaining space */
   display: flex;
-  justify-content: center; /* Center nav items */
+  justify-content: flex-end; /* Center nav items */
 }
 
 .nav ul {
@@ -104,4 +104,17 @@
     text-align: center; /* Center the text */
     margin-top: 15px; /* Add space above button */
   }
+}
+
+.highlight {
+  border: 2px solid #0072ff; /* Border color */
+  color: #0072ff; /* Text color */
+  padding: 2px 5px; /* Adds padding around the text */
+  border-radius: 5px; /* Rounds the corners of the border */
+  text-decoration: none; /* Removes the underline */
+}
+
+.highlight:hover {
+  background-color: #0072ff; /* Background color on hover */
+  color: white; /* White text color on hover */
 }

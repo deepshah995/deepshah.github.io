@@ -1,4 +1,4 @@
-.about-me-container {
+.break-into-tech-container {
   display: flex;
   align-items: center;
   max-width: 900px;
@@ -10,17 +10,17 @@
   transition: transform 0.3s ease; /* Smooth transition */
 }
 
-.about-me-container:hover {
+.break-into-tech-container:hover {
   transform: scale(1.02); /* Slightly enlarge on hover */
 }
 
-.about-me-text {
+.break-into-tech-text {
   flex: 1;
   padding: 20px;
   animation: fadeIn 1s; /* Fade-in animation */
 }
 
-.about-me-image {
+.break-into-tech-image {
   flex: 1;
   padding: 20px;
   display: flex;
@@ -83,8 +83,43 @@
 }
 
 .fancy-button:hover {
-  background-image: linear-gradient(45deg, #00c6ff, #0072ff); /* Tech-themed gradient colors */
-  box-shadow: 0 0 20px rgba(0, 198, 255, 0.5), 0 0 30px rgba(0, 114, 255, 0.5); /* Neon glow effect */
+  background-image: linear-gradient(45deg, #000000, #000000); /* Tech-themed gradient colors */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 114, 255, 0.5); /* Neon glow effect */
   transform: translateY(-3px); /* Raise effect */
-  border: 1px solid #00c6ff; /* Light border on hover */
+  border: 1px solid #000000; /* Light border on hover */
+}
+
+.intro-text {
+  font-size: 1.4rem; /* Larger font size for emphasis */
+  margin-bottom: 10px; /* Margin below the paragraph */
+  font-weight: bold; /* Bold text */
+}
+
+.focus-text {
+  font-size: 1.2rem; /* Paragraph font size */
+  margin-bottom: 20px; /* Margin below the paragraph */
+  color: #000000; /* Fancy color for focus text */
+}
+
+.focus-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin-bottom: 20px; /* Margin below the list */
+}
+
+.focus-list li {
+  margin: 10px 0; /* Margin for list items */
+  position: relative; /* Positioning for custom bullets */
+  padding-left: 30px; /* Space for the custom bullet */
+  font-size: 1.1rem; /* Font size for list items */
+  color: #000000; /* Fancy color for bullet points */
+}
+
+.focus-list li::before {
+  content: '➤'; /* Custom bullet character */
+  position: absolute; /* Position the bullet */
+  left: 0; /* Align to the left */
+  color: hsl(0, 0%, 0%); /* Color of the bullet */
+  font-size: 1.5rem; /* Size of the bullet */
+  line-height: 1.1; /* Align bullet with text */
 }
